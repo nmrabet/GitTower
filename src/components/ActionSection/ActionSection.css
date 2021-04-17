@@ -31,6 +31,10 @@
   max-height: 65px;
 }
 
+.btn:hover {
+  color: white;
+}
+
 .primary {
   background-color: #ffc600;
 }
