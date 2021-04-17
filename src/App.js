@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import ReactPageScroller from "react-page-scroller";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Design from "./pages/About";
-import Trust from "./pages/About";
+import Design from "./pages/Design";
+import Trust from "./pages/Trust";
 import BecomeGreat from "./pages/BecomeGreat";
 import Footer from "./pages/Footer";
 
