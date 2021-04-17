@@ -8,7 +8,7 @@ export default function IntroSection({handlePageChange}) {
     <div className="intro-container">
       <div className="intro">
         <div className="img-container">
-          <img width={320} height={430} src={poster} alt="poster" />
+          <img width={300} height={400} src={poster} alt="poster" />
 
             <button className="button-scroll" onClick={() => handlePageChange(1)}>
               <ChevronDown className="chevron-down" />
