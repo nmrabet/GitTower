@@ -8,24 +8,15 @@ import Buttons from "../components/Buttons";
 export default function Footer() {
   return (
     <footer className="footer-container">
-      <Logo className="logo" width="177"  />
+      <Logo className="logo" width="177" />
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          marginTop: 60,
-          maxWidth: "100%",
-        }}
-      >
+      <div className="ft-img-container">
         <img
           style={{ marginBottom: 46 }}
           src={poster}
           alt=""
-          width={381}
-          height={494}
-          className="ft-poster"
+          width={350}
+          height={425}
         />
         <Buttons />
       </div>

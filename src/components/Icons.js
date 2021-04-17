@@ -33,8 +33,8 @@ export default function Icons() {
       {icons.map((el) => {
         return (
           <div key={el.id}>
-            <a href={el.url} className='icon'>
-              <img src={el.img} alt="" width='35px'/>
+            <a href={el.url} className="icon">
+              <img src={el.img} alt="" width="35px" />
             </a>
           </div>
         );

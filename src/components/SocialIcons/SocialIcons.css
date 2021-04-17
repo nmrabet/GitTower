@@ -17,7 +17,7 @@
 @media screen and (max-width: 570px) {
   footer .social-icon-wrapper {
     width: 332px;
-    margin: 30px auto;
+    margin: 15px auto;
   }
   footer .social-icons {
     display: flex;

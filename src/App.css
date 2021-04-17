@@ -1,23 +1,27 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
-a, button:focus, a:focus, select:focus, input:focus {
+a,
+button:focus,
+a:focus,
+select:focus,
+input:focus {
   outline: 0;
 }
 
@@ -36,7 +40,6 @@ a, button:focus, a:focus, select:focus, input:focus {
   line-height: 0.95;
 }
 
-
 .smaller-txt {
   font-size: 3vw;
   max-width: 1200px;
@@ -53,6 +56,14 @@ a, button:focus, a:focus, select:focus, input:focus {
   font-size: 7vw;
 }
 
+.ft-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60;
+  max-width: 100%;
+}
+
 .footer-container {
   background-image: url("./assets/img/Pic_end_2.png");
   background-size: cover;
@@ -63,7 +74,6 @@ a, button:focus, a:focus, select:focus, input:focus {
 .footer-container svg {
   width: 177px;
 }
-
 
 @media screen and (max-width: 450px) {
   .logo {
