@@ -2,7 +2,7 @@
   "name": "git-tower",
   "version": "0.1.0",
   "engines": {
-    "node": "16.x"
+    "node": "14.16.0"
   },
   "private": true,
   "dependencies": {
