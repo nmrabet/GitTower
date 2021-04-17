@@ -1,0 +1,31 @@
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+}
+
+.social-icon {
+  margin-bottom: 6px;
+}
+
+.social-icon:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 570px) {
+  footer .social-icon-wrapper {
+    width: 332px;
+    margin: 30px auto;
+  }
+  footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+
+    right: initial;
+    bottom: initial;
+  }
+}

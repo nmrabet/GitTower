@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import ReactPageScroller from "react-page-scroller";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Design from "./pages/About";
+import Trust from "./pages/About";
+import BecomeGreat from "./pages/BecomeGreat";
+import Footer from "./pages/Footer";
+
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    const [currentPage, setCurrentPage] = useState(0);
+    const handlePageChange = number => {
+        setCurrentPage(number);
+    };
+
+    return (
+        <ReactPageScroller
+            pageOnChange={handlePageChange}
+            customPageNumber={currentPage}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <Home handlePageChange={handlePageChange}/>
+            <About/>
+            <BecomeGreat/>
+            <Design/>
+            <Trust/>
+            <Footer/>
+        </ReactPageScroller>
+    );
 }
 
 export default App;

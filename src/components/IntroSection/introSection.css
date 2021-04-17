@@ -1,0 +1,57 @@
+.intro-container {
+  background-color: #09233c;
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  margin-top: -40px;
+  left: 50%;
+  margin-left: -182px;
+}
+
+.img-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button-scroll {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-left: 50px;
+  margin-bottom: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chevron-down {
+  width: 53px;
+  margin-right: 8px;
+}
+
+.scroll-text {
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 680px) {
+
+  .button-scroll {
+    flex-direction: column-reverse;
+  }
+  .scroll-btn {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .button-scroll {
+    display: none;
+  }
+
+}
