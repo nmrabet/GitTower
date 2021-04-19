@@ -14,9 +14,8 @@ export default function Footer() {
         <img
           style={{ marginBottom: 46 }}
           src={poster}
-          alt=""
-          width={350}
-          height={425}
+          alt="poster frame"
+         className='poster-ft-img'
         />
         <Buttons />
       </div>

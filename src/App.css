@@ -17,6 +17,20 @@ code {
   text-transform: uppercase;
 }
 
+.poster-img {
+  width: 50%;
+}
+
+.poster-ft-img {
+  width: 60%;
+}
+
+@media screen and (min-width: 1200px) {
+  .poster-ft-img {
+    width: 20%;
+  }
+}
+
 a,
 button:focus,
 a:focus,
