@@ -25,9 +25,12 @@ code {
   width: 60%;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 928px) {
   .poster-ft-img {
     width: 20%;
+  }
+  .poster-img {
+    width: 35%;
   }
 }
 
